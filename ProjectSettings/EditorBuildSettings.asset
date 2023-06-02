@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SekilEsleme.unity
     guid: 06ccebbdae9258b42a40c02edfbcb214
+  - enabled: 1
+    path: Assets/Scenes/ArabaEsleme.unity
+    guid: e9c18557a4d8ed44d8e597b3211e7a23
+  - enabled: 1
+    path: Assets/Scenes/Matematik.unity
+    guid: c46bd108d3fb0f840b6944058c04b215
   m_configObjects: {}

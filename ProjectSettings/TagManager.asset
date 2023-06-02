@@ -7,6 +7,8 @@ TagManager:
   - hayvangolgeleri
   - renkgolgeleri
   - sekilgolgeleri
+  - CorrectTag
+  - arabalar
   layers:
   - Default
   - TransparentFX

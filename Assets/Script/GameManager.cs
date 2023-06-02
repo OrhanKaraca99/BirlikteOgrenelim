@@ -31,6 +31,14 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+    public void arabaButonu()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void matematik()
+    {
+        SceneManager.LoadScene(5);
+    }
     private void Start() 
     {
         ilkMenu.SetActive(true);

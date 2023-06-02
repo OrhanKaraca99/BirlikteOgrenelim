@@ -8,7 +8,7 @@ public class SonScript : MonoBehaviour
 {
 
     public GameObject menu;
-    private int toplam = 5;
+    private int toplam = 6;
     private int i = 0;
     public void level_son()
     {
