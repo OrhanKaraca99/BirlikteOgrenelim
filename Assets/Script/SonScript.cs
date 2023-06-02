@@ -8,7 +8,7 @@ public class SonScript : MonoBehaviour
 {
 
     public GameObject menu;
-    private int toplam = 6;
+    private int toplam = 5, toplamaraba=4;
     private int i = 0;
     public void level_son()
     {
@@ -19,6 +19,19 @@ public class SonScript : MonoBehaviour
         }
     }
 
+     public void level_son_matematik()
+    {
+            menu.SetActive(true);
+    }
+
+    public void level_son_araba()
+    {
+        i++;
+        if (i == toplamaraba)
+        {
+            menu.SetActive(true);
+        }
+    }
     public void gerigitme()
     {
         SceneManager.LoadScene(0);
@@ -33,8 +46,18 @@ public class SonScript : MonoBehaviour
     }
     public void sekilsonraki()
     {
+        SceneManager.LoadScene(4);
+    }
+    public void arabasonraki()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void matematiksonraki()
+    {
         SceneManager.LoadScene(0);
     }
+    
+
 
 
 

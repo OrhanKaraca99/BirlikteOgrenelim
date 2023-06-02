@@ -43,7 +43,7 @@ public class Matematik : MonoBehaviour
         if (allFieldsCorrect)
         {
             kontroltext.text = "Tebrikler!";
-            son_script.level_son();
+            son_script.level_son_matematik();
 
         }
         else

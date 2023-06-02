@@ -562,8 +562,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: hayvansonraki
+      - m_Target: {fileID: 1168192753}
+        m_MethodName: matematiksonraki
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -949,7 +949,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B\xF6l\xFCm Bitti\nBravo\n"
+  m_text: "B\xF6l\xFCm Bitti\n\u015Eimdilik oyunumuz\nBu kadar\n\nYeni g\xFCncellemeyi
+    bekleyin :)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

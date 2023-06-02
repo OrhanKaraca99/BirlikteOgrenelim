@@ -38,7 +38,7 @@ public class ArabaMove : MonoBehaviour
                     {
                         transform.position = hayvangolgeleri.transform.position;
                         Destroy(this);
-                        son_script.level_son();
+                        son_script.level_son_araba();
                     }
                     else
                     {
